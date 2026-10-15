@@ -1,0 +1,17 @@
+{
+  "environment": "production",
+  "app_name": "SecureApp_Test",
+  "database": {
+    "host": "db.example.internal",
+    "port": 5432,
+    "user": "admin_prod",
+    "password": "SuperSecretPassword123!",
+    "connection_string": "postgresql://admin_prod:SuperSecretPassword123!@db.example.internal:5432/main_db"
+  },
+  "api_keys": {
+    "aws_access_key_id": "AKIAIOSFODNN7EXAMPLE",
+    "aws_secret_access_key": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "stripe_live_key": "sk_live_51HqYourFakeStripeKey12345abcde",
+    "slack_bot_token": "xoxb-123456789012-1234567890123-abc123def456ghi789jkl012"
+  }
+}
